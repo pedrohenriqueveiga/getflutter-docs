@@ -1,9 +1,7 @@
----
-description: >-
+
 O Get Flutter é uma das maiores bibliotecas de UI de código aberto do Flutter para 
 aplicativos móveis ou da Web. Possui mais de 1000 widgets reutilizáveis pré-construídos.
   
----
 
 # Introdução
 
