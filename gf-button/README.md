@@ -1,5 +1,5 @@
 ---
-description: >-
+Descrição : >-
   GF button is Flutter Button Component that comes with a 100+ pre-built button
   with endless color combinations that you can use straightway in your project.
 ---
