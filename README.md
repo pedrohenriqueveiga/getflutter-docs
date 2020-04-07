@@ -1,28 +1,31 @@
 ---
-description: >-
-  Get Flutter is one of the largest Flutter open-source UI library for mobile or
-  web apps. It has more than 1000+ pre-built reusable widgets.
+Descrição: >-
+O Get Flutter é uma das maiores bibliotecas de UI de código aberto do Flutter para 
+aplicativos móveis ou da Web. Possui mais de 1000 widgets reutilizáveis pré-construídos.
+  
 ---
 
-# Introduction
+# Introdução
 
 ![Get Flutter Open Source UI library](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto-1300/github-settings_2_6MxhZpdf5.png)
 
-## How Get Flutter Started ?
+## Como começar com o Flutter ?
 
-We are a huge follower of Flutter and using it from very early stage even since it was released in alpha stage at 2017. We used it in various Flutter apps including  some of enterprise SAAS applications. 
 
-Flutter almost has all the widget available that developer can use in project but again, we used to develop lots of project with flutter and hence decided why not we develop all the possible widget that can be reused in any project and speed up the app development. 
+Nós somos um grande seguidor do Flutter e o usamos desde muito cedo, desde que foi lançado no estágio alfa em 2017. Nós o usamos em vários aplicativos Flutter, incluindo alguns aplicativos corporativos SAAS. 
 
-We are launching our Beta Release in the beginning  to develop, to test the library component. Kindly give us your feedback to improve and add more widgets to our library. 
+O Flutter tem quase todo o widget disponível que o desenvolvedor pode usar no projeto, mas novamente, desenvolvemos muitos projetos com o flutter e, portanto, decidimos por que não desenvolvemos todo o widget possível que pode ser reutilizado em qualquer projeto e agilizamos o desenvolvimento do aplicativo. 
 
-## Get Flutter Roadmap 
+Estamos lançando nossa versão beta no início para desenvolver, testar o componente da biblioteca. Envie seus comentários para melhorar e adicionar mais widgets à nossa biblioteca.
 
-We are committed to continue this library development to make flutter app design & development less time consuming and with small learning curve too.
+## Siga o Roadmap 
 
-We will really appreciate if you could check our Roadmap and do Vote & share your Feedback on upcoming widgets and New features:   [https://roadmap.getflutter.dev/](https://roadmap.getflutter.dev/)
+Estamos empenhados em continuar o desenvolvimento da biblioteca para tornar o design e desenvolvimento de aplicativos flutuantes menos demorado e com uma pequena curva de aprendizado também.
 
-Your support and feedback helps us to build the best Flutter Open-Source product. 
+
+Gostaríamos muito que você pudesse conferir nosso Roteiro, votar e compartilhar seus comentários sobre os próximos widgets e novos recursos:[https://roadmap.getflutter.dev/](https://roadmap.getflutter.dev/)
+
+Seu suporte e feedback nos ajudam a criar o melhor produto de código aberto Flutter.
 
 
 
