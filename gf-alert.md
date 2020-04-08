@@ -1,7 +1,7 @@
 ---
-description: >-
-  GFAlert is a simple widget which is used to show some information and wait for
-  the user's action.
+Descrição: >-
+  GF Alert é um widget simples que é usado para mostrar algumas informações e aguardar
+  a ação do usuário.
 ---
 
 # GF Alert
@@ -12,9 +12,9 @@ description: >-
 
 ### 
 
-### Usage
+### Uso
 
-**GFAlert** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The Alert code is as shown below. 
+**GFAlert** deve estar dentro de um **GFFloating** Widget o **child** do **GFFloatingWidget** leva **GFAlert** toma como um argumento o  **body** leva qualquer tipo de widgets. O código de alerta é como mostrado abaixo.. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -45,11 +45,11 @@ import 'package:getflutter/getflutter.dart';
 )
 ```
 
-### Alert with multiple buttons
+### Alerta com vários Buttons
 
 ![Alert with Multiple Buttons](.gitbook/assets/basic-alert-2x.png)
 
-Alert can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons 
+O alerta pode ter dois ou mais **Buttons** para chamada de ação no **bottombar** do widget de alerta. O código abaixo mostra os vários botões.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -91,9 +91,11 @@ import 'package:getflutter/getflutter.dart';
 )
 ```
 
-### Types of Alert
+### Tipos de Alertas 
 
-There are the types of alerts ie , `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth**
+
+Existem os tipos de alertas, ou seja, `basic` , `rounded` and `fullWidth` . 
+O alerta padrão é um alerta básico. O código abaixo mostra o  **rounded** alerta. Para o **fullWidth** trocando pelo alerta **rounded** com **fullWidth**
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -136,9 +138,11 @@ import 'package:getflutter/getflutter.dart';
 )
 ```
 
-### Positioning of Alert
+### Posicionamento do Alerta
 
-Alerts can be positioned accordingly inside the **GFFloating** Widget. The positioning takes two parameters ie, **horizontalPosition** and **verticalPosition**. The usage of these is shown below.
+
+Os alertas podem ser posicionados adequadamente dentro do **GFFloating** Widget.O posicionamento requer dois parâmetros, ou seja, **horizontalPosition** e **verticalPosition**.
+O uso destes é mostrado abaixo.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -155,15 +159,15 @@ body:GFFloatingWidget(
 
 
 
-### Custom Properties
+### Propriedades Personalizadas
 
 |  |  |
 | :--- | :--- |
-| **child** | **child** of type \[Widget\] which is alternative to **title**. **title** will get priority over **child** |
-| **contentChild** | **contentchild** of type \[Widget\] which is alternative to **content**. **content** will get priority over **contentchild** |
-| **titleTextStyle** | changes the style of the **title**  not for the **child** |
-| **backgroundColor** | used to change the backgroundColor of the GFAlert |
-| **contentTextStyle** | changes the style of the **content**  not for the **contentChild** |
-| **width** | used to control the width of the **Alert** |
-| **alignment** | used to align the **title or content** to desired position  |
+| **child** | **child** do tipo \[Widget\] que é alternativa ao  **title**. **title** terá prioridade sobre **child** |
+| **contentChild** | **contentchild** do tipo \[Widget\] que é alternativa a **content**. **content** terá prioridade sobre **contentchild** |
+| **titleTextStyle** | muda o estilo do **title**  não para o **child** |
+| **backgroundColor** | usado para alterar o backgroundColor do GFAlert |
+| **contentTextStyle** | muda o estilo do **content**  não para o **contentChild** |
+| **width** | usado para controlar a largura do**Alert** |
+| **alignment** | usado para alinhar o **title ou content** para a posição desejada  |
 
