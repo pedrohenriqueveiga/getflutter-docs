@@ -1,7 +1,6 @@
 ---
-description: >-
-  GFAppbar is a top action bar, which provides a dedicated space with visual
-  structure and interactive elements.
+Descrição: >-
+  GFAppbar é uma barra de ação superior, que fornece um espaço dedicado com recursos visuais estrutural e elementos interativos.
 ---
 
 # GF Appbar
@@ -10,11 +9,12 @@ description: >-
 
 
 
-An app bar consists of a toolbar and potentially other widgets, such as a  GFTabBar and FlexibleSpaceBar. The GFAppBar displays the toolbar widgets, leading, title, and actions, above. 
 
-### Usage
+Uma barra de aplicativos consiste em uma barra de ferramentas e potencialmente em outros widgets, como um GFTabBar e  FlexibleSpaceBar. A GFAppBar exibe os widgets, iniciais, título e ações da barra de ferramentas acima. 
 
-The simple code of a basic GFAppbar is as shown below.
+### Uso
+
+O código simples de um GFAppbar básico é como mostrado abaixo.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -42,7 +42,7 @@ GFAppBar(
 ),
 ```
 
-### GFAppbar with SearchBar
+### GFAppbar com SearchBar
 
 ![App Bar with Search](.gitbook/assets/appbar-3.png)
 
@@ -75,9 +75,9 @@ GFAppBar(
 ),
 ```
 
-### GFAppbar with Segmented Tabs
+### GFAppbar com Tabs Segmentadas
 
-**Segmented** **tabs** can also be used inside the **Appbar**. In the **title** field of the Appbar just define the Segmented tab code and the work will be done. Below code shows a simple segmented tab inside Appbar
+**Tabs** **Segmentadas** também pode ser usado dentro do **Appbar**. no  **title** campo da Appbar apenas defina o código da guia Segmentado e o trabalho será concluído. O código abaixo mostra uma guia segmentada simples dentro da Appbar
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -138,26 +138,26 @@ TabController tabController;
 );
 ```
 
-Look and feel of the **GFAppbar search bar** can be customized using the GFAppbar properties.
+A aparência da **SearchBar do GFAppbar** pode ser personalizada usando as propriedades do GFAppbar.
 
-### Custom Properties
+### Propriedades Personalizadas
 
-| Name | Description |
+| Nome | Descrição |
 | :--- | :--- |
-| **searchBar** | If true, displays search bar in the title space |
-| **searchHintText** | It takes text to displays the search bar hint text |
-| **searchHintStyle** | It styles the \[searchHintText\] |
-| **searchTextStyle** | It styles the search text |
-| **searchBarColorTheme** | It defines the search bar icons color theme |
-| **searchController** | Controls the text being edited. If null, this widget will create its own \[TextEditingController\] |
-| **onChanged** | Called when the user initiates a change to the TextField's value: when they have inserted or deleted text |
-| **onSubmitted** | Called when the user indicates that they are done editing the text in the field. |
-| **onTap** | Called for each distinct tap except for every second tap of a double tap. If the text field is created with enabled false, taps will not be recognized. |
+| **searchBar** | Se verdadeiro, exibe a barra de pesquisa no espaço do título |
+| **searchHintText** | É necessário texto para exibir o texto da dica da barra de pesquisa |
+| **searchHintStyle** | Ele estiliza o \[searchHintText\] |
+| **searchTextStyle** | Ele estiliza o texto de pesquisa |
+| **searchBarColorTheme** | Define o tema da cor dos ícones da barra de pesquisa |
+| **searchController** | Controla o texto que está sendo editado. Se nulo, esse widget criará seu próprio \[TextEditingController\] |
+| **onChanged** | Chamado quando o usuário inicia uma alteração no valor do TextField: quando ele inseriu ou excluiu o texto |
+| **onSubmitted** | Chamado quando o usuário indica que terminou de editar o texto no campo. |
+| **onTap** | Chamado para cada toque distinto, exceto para cada segundo toque de um toque duplo. Se o campo de texto for criado com false ativado, os toques não serão reconhecidos. |
 
-Look and feel of the **GFAppbar** can be customized using the GFAppbar properties.
+A aparência do **GFAppbar** pode ser personalizada usando as propriedades do **GFAppbar**.
 
-### Custom Properties
-
+### Propriedades Personalizadas
+```dart
 <table>
   <thead>
     <tr>
@@ -299,3 +299,4 @@ Look and feel of the **GFAppbar** can be customized using the GFAppbar propertie
     </tr>
   </tbody>
 </table>
+```
